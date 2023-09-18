@@ -1,0 +1,5 @@
+# MODEL COHORT LAYOUT FILE - USED BY AUTOMATED TESTING
+---
+track: Part-Time Intro to Programming
+course_layout_files:
+- https://github.com/epicodus-curriculum/testing/blob/main/pt_intro_layout.yaml

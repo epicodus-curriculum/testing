@@ -1,0 +1,38 @@
+# MODEL COURSE LAYOUT FILE - USED BY AUTOMATED TESTING
+# Note: You can override code_reviews/settings properties within details sections
+---
+part_time: true
+internship: false
+number_of_days: 23
+class_times:
+  Sunday: 9:00-17:00
+  Monday: 18:00-21:00
+  Tuesday: 18:00-21:00
+  Wednesday: 18:00-21:00
+code_reviews:
+  settings:
+    visible_day_of_week: thursday
+    visible_time: "8:00"
+    due_days_later: 3
+    due_time: "8:00"
+    submissions_not_required: false
+    always_visible: false
+  details:
+    - title: First PT Intro Code Review
+      visible_class_week: 2
+      filename: https://github.com/epicodus-curriculum/testing/blob/main/test_week/code_review.md
+      objectives:
+      - Test objective 1
+    - title: Second PT Intro Code Review
+      visible_class_week: 4
+      filename: https://github.com/epicodus-curriculum/testing/blob/main/test_week/code_review.md
+      objectives:
+      - Test objective 1 for second cr
+      - Test objective 2 for second cr
+    - title: Third PT Intro Code Review
+      visible_class_week: 6
+      filename: https://github.com/epicodus-curriculum/testing/blob/main/test_week/code_review.md
+      objectives:
+      - Test objective 1 for third cr
+      - Test objective 2 for third cr
+      - Test objective 3 for third cr
